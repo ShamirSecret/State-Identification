@@ -1,1 +1,3 @@
-# stateidentification
+# State Identification
+
+ETH HANGZHOU HACKATHON
