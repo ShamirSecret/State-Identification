@@ -135,7 +135,7 @@ contract StateIdentification is Context, Pausable, Ownable {
         emit Voted(voteId, _msgSender(), weight);
     }
 
-    function startVoteToCloseChannel(address participant) external whenNotPaused {
+    function startVoteToCloseChannel(address participant) external onlyOwner whenNotPaused {
         require(balances[participant] > 0, "No balance to dispute");
 
         uint256 voteId = nextVoteId++;
