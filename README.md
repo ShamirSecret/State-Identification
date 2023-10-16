@@ -19,7 +19,5 @@ Here are the State Identification and Point contract addresses on different netw
 ### youtube:
 https://www.youtube.com/watch?v=GcKP-ao5HUQ
   
-### Demo
-http://124.221.74.51:5000
 
 
